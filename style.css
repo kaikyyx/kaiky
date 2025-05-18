@@ -1,0 +1,80 @@
+/* Estilização base da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f8f4f4;
+    color: #772e2e;
+  }
+  
+  /* Estilo da navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #408ad8;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilo das seções principais */
+  section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilo dos inputs e textarea do formulário */
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo do botão de envio */
+  input[type="submit"] {
+    background-color: #4495eb;
+    color: hsl(0, 0%, 97%);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo do botão voltar ao topo */
+  #topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 80%;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: none; /* fica oculto inicialmente */
+  }
+  
+  #topo:hover {
+    background-color: #0056b3;
+  }
+  p{
+    text-align: center;
+  }

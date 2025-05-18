@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="style.css" /> <!-- vincula o arquivo de codigo css ao html-->
+ 
+</head>
+<body>
+  <nav> <!-- uma coluna de navegação que ao clicar, leva as informações que deseja saber.-->
+    <ul> 
+      <li><a href="#sobre">Sobre Mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Meu nome é Kaiky Fonseca. Sou estudante do curso de Ciência da computação e sou apaixonado por deservolvimento web. Gosto de programar,jogar, ler, desenhar interfaces e aprender sobre novas tecnologias. Meus hobbies incluem leitura, jogos de tabuleiro, jogos on-line e pedalar oa ar livre.</p>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação Educacional e Idiomas</h2>
+    <ul>
+      <li>Curso: Ciência da computação - Uninter</li>
+      <li>Período: 2024 - Em andamento</li>
+      <li>Idiomas:
+        <ul>
+          <li>Português – Nativo</li>
+          <li>Inglês – Intermediário</li>
+          <li>Espanhol – Básico</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Aqui estão alguns projetos que desenvolvi durante o curso e estudos pessoais:</p>
+    <ul>
+     
+      <li><a href="https://codepen.io/kaikyyx/pen/wveExzy?editors=0100" target="_blank">Projetos feitos</a></li> <!-- Link que leva a uma pagina com projetos feitos.-->
+    </ul>
+  </section>
+
+  <section id="contato"> <!-- Cria uma seção para as informações de contato-->
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" /><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Digite seu e-mail" /><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea><br>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </section>
+
+  <a href="#" id="topo" title="Voltar ao topo">↑</a>
+  <p>&Kaiky Fonseca Silva</p>
+  <script src="script.js"></script><!-- vincula o arquivo de codigo do Java Scrip ao html-->
+</body>
+</html>
